@@ -2,7 +2,7 @@
 package pokerhandevaluation;
 
 /**
- * @author lhebe
+ * @author lee heberer
  */
 public class Hand {
     public int[][] card = new int[5][2];
@@ -13,6 +13,10 @@ public class Hand {
 
     public int[][] getCard() {
         return card;
+    }
+    
+    public void setCard(int[][] hand){
+        this.card = hand;
     }
 
     public void setOneCard(int i, int rank, int suit) {

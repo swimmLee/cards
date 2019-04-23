@@ -4,7 +4,7 @@ package pokerhandevaluation;
 import java.util.Scanner;
 
 /**
- * @author lhebe
+ * @author lee heberer
  */
 public class DealCard {
     //private int cardRank;
